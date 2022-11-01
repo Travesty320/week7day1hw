@@ -41,3 +41,32 @@ replaceEvens()
 //Expected output
 //Given arr == ["Max","Baseball","Reboot","Goku","Trucks","Rodger"]
 //Output arr == ["even index","Baseball","even index","Goku","even index","Rodger"]
+
+
+
+// code wars problems
+
+// Convert boolean values to strings 'Yes' or 'No'.
+// Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+function boolToWord( bool ){
+    if (bool) {
+      return 'Yes';
+    } else {
+      return 'No';
+    }
+  };
+
+
+//   Even or Odd
+// Create a function that takes an integer 
+// as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+function evenOrOdd(number) {
+    if (number % 2 === 0) {
+      return "Even";
+    } else {
+      return "Odd";
+    }
+      };
+    console.log(evenOrOdd);
